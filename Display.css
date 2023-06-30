@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+*{
+    padding:0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display:none;
+}
+body{
+    height:100vh;
+    width:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background: hsl(229, 57%, 11%);
+    background-image:url(./images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position-y: 50vh;
+    font-family: 'Raleway', sans-serif;
+}
+main{
+    display: flex;
+    gap:30px;
+}
+aside{
+    background: hsl(228, 56%, 26%);
+}
+.left{
+    height:183.6px;
+    width:320.4px;
+    border-radius:10px 90px 10px 10px;
+}
+.right{
+    height:140.4px;
+    width:494.4px;
+    border-radius:10px;
+    padding: 35px;
+    align-self:end;
+    display:flex;
+    flex-wrap:wrap;
+}
+.right>*{
+    margin-top:auto;
+    flex-basis:100%;
+}
+.text{
+    font-weight:400;
+    color: hsl(229, 7%, 55%);
+    font-size:14px;
+    align-self: start;
+}
+.bar{
+    height:15px;
+    border-radius:10px;
+    background-color: hsl(229, 57%, 11%);
+    padding:2px;
+}
+.loading{
+    width:80%;
+    height:100%;
+    background:linear-gradient(to right,hsl(6, 100%, 80%),hsl(335, 100%, 65%));
+    border-radius: inherit;
+    display:flex; 
+    justify-content: end; 
+    padding: 2px;
+}
+.circle{
+    height: 9px;
+    width: 9px;
+    background:white;
+    border-radius:50%;
+    align-self:center;
+}
+span{
+    font-weight:700;
+    color:white;
+}
+.Sfont{
+    font-size:12px;
+}
+.right-data{
+   margin-left:350px;
+}
+.bubble{
+    height:76.8px;
+    flex: 0 0 193.2px;
+    background-color: white;
+    margin-top:-80px;
+    margin-left:auto;
+    border-radius:10px;
+    font-size:40px;
+    font-weight:700;
+    line-height: 76.8px;
+    text-align: center;
+    vertical-align: middle;
+}
+.triangle{
+    height: 35%;
+    width:15%;
+    background:white;
+    clip-path: polygon(0 0, 100% 100%, 100% 0);
+    margin-left:auto;
+    margin-top:-17px;
+}
+.gray{
+    color:hsl(229, 7%, 55%);
+    font-size:14px;
+}
+.left{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap:15px;
+    padding:40px;
+}
+.left>*{
+    flex-basis: 100%;
+}
+.icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:hsl(229, 57%, 11%);
+    height:48px;
+    flex-basis:48px;
+    border-radius:10px;
+}
